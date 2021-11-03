@@ -17,8 +17,8 @@ Maven (define the environment variable `M2_HOME` appropriately).
 Execute in a shell
 
 ```shell
-git clone https://github.com/maurizio-lattuada/trading.git
-cd trading
+git clone https://github.com/florentinach/code-challenge.git
+cd code-challenge
 mvn -U clean verify -DskipTests
 ```
 
@@ -41,6 +41,7 @@ Once you launched the main application (see the previous Chapter), you can test 
 ```shell
 mvn test
 ```
+An HTML report is generated with the results, and it is located to `target/cucumber-reports.html`
 
 Note that here the whole application has been structured to have it first running
 (see the previous Chapter), then tested via Cucumber. In this way, you can eventually verify manually the database
